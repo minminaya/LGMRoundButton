@@ -53,7 +53,6 @@ public class LGMRoundButton extends AppCompatButton {
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 colorStateListTemp = getTextColors();
-                Log.e("onTouchEvent", "按下");
                 this.setTextColor(colorStateListForTextColorForPressed);
 
                 break;
