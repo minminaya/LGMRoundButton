@@ -16,6 +16,8 @@ import android.widget.Button;
 public class LGMRoundButton extends AppCompatButton {
 
     private ColorStateList colorStateListForTextColorForPressed;
+    private ColorStateList colorStateListTemp = null;
+
 
     public LGMRoundButton(Context context) {
         super(context);
@@ -45,24 +47,20 @@ public class LGMRoundButton extends AppCompatButton {
         this.setPadding(padding[0], padding[1], padding[2], padding[3]);
     }
 
-    ColorStateList colorStateList = null;
-
     @Override
     public boolean onTouchEvent(MotionEvent event) {
 
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
-                colorStateList = getTextColors();
+                colorStateListTemp = getTextColors();
                 Log.e("onTouchEvent", "按下");
                 this.setTextColor(colorStateListForTextColorForPressed);
 
                 break;
             case MotionEvent.ACTION_UP:
-                this.setTextColor(colorStateList);
+                this.setTextColor(colorStateListTemp);
                 break;
         }
-
-
         return true;
     }
 }
