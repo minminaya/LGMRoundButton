@@ -26,7 +26,7 @@ allprojects {
 
 ```
 dependencies {
-	        compile 'com.github.minminaya:LGMRoundButton:v1.1'
+	        compile 'com.github.minminaya:LGMRoundButton:v1.2'
 	}
 ```
 
