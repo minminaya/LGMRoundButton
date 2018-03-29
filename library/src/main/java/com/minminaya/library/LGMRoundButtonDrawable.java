@@ -46,7 +46,7 @@ public class LGMRoundButtonDrawable extends GradientDrawable {
         int radiusTopLeft = typedArray.getDimensionPixelSize(R.styleable.LGMRoundButton_radiusForTopLeft, 0);
         int radiusTopRight = typedArray.getDimensionPixelSize(R.styleable.LGMRoundButton_radiusForTopRight, 0);
         int radiusBottomLeft = typedArray.getDimensionPixelSize(R.styleable.LGMRoundButton_radiusForBottomLeft, 0);
-        int radiusBottomRight = typedArray.getDimensionPixelSize(R.styleable.LGMRoundButton_radiusForTopRight, 0);
+        int radiusBottomRight = typedArray.getDimensionPixelSize(R.styleable.LGMRoundButton_radiusForBottomRight, 0);
 
         //默认2px
         int borderWidth = typedArray.getDimensionPixelSize(R.styleable.LGMRoundButton_borderWidth, 2);

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/LavenderBlush_FFF0F5"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -21,7 +22,7 @@
             app:borderColor="@color/Crimson_DC143C"
             app:borderWidth="2dp"
             app:isRadiusAutoHalf="true"
-            app:textColorForPressed="@color/DarkMagenta_8B008B" />
+            app:textColorForPressed="@color/SlateGray_708090" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -39,68 +40,75 @@
             android:text="左上"
             app:borderColor="@color/Crimson_DC143C"
             app:radiusForTopLeft="20dp"
-            app:textColorForPressed="@color/DarkMagenta_8B008B" />
+            app:textColorForPressed="@color/SlateGray_708090" />
 
         <com.minminaya.library.LGMRoundButton
             android:id="@+id/btn2"
             android:layout_width="50dp"
             android:layout_height="50dp"
+            android:layout_marginStart="2dp"
             android:layout_toEndOf="@id/btn1"
             android:gravity="center"
             android:padding="10dp"
             android:text="中上"
             app:borderColor="@color/Crimson_DC143C"
-            app:textColorForPressed="@color/DarkMagenta_8B008B" />
+            app:textColorForPressed="@color/SlateGray_708090" />
 
         <com.minminaya.library.LGMRoundButton
             android:id="@+id/btn3"
             android:layout_width="50dp"
             android:layout_height="50dp"
+            android:layout_marginStart="2dp"
             android:layout_toEndOf="@id/btn2"
             android:gravity="center"
             android:padding="10dp"
             android:text="右上"
-            app:radiusForBottomRight="0dp"
             app:borderColor="@color/Crimson_DC143C"
+            app:radiusForBottomRight="0dp"
             app:radiusForTopRight="20dp"
-            app:textColorForPressed="@color/DarkMagenta_8B008B" />
+            app:textColorForPressed="@color/SlateGray_708090" />
 
         <com.minminaya.library.LGMRoundButton
             android:id="@+id/btn4"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_below="@id/btn1"
+            android:layout_marginTop="2dp"
             android:gravity="center"
             android:padding="10dp"
             android:text="左下"
             app:borderColor="@color/Crimson_DC143C"
             app:radiusForBottomLeft="20dp"
-            app:textColorForPressed="@color/DarkMagenta_8B008B" />
+            app:textColorForPressed="@color/SlateGray_708090" />
 
         <com.minminaya.library.LGMRoundButton
             android:id="@+id/btn5"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_below="@id/btn1"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
             android:layout_toEndOf="@id/btn4"
             android:gravity="center"
             android:padding="10dp"
             android:text="中下"
             app:borderColor="@color/Crimson_DC143C"
-            app:textColorForPressed="@color/DarkMagenta_8B008B" />
+            app:textColorForPressed="@color/SlateGray_708090" />
 
         <com.minminaya.library.LGMRoundButton
             android:id="@+id/btn6"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_below="@id/btn1"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
             android:layout_toEndOf="@id/btn5"
             android:gravity="center"
             android:padding="10dp"
             android:text="右下"
             app:borderColor="@color/Crimson_DC143C"
             app:radiusForBottomRight="20dp"
-            app:textColorForPressed="@color/DarkMagenta_8B008B" />
+            app:textColorForPressed="@color/SlateGray_708090" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -112,11 +120,13 @@
             android:layout_height="50dp"
             android:layout_centerInParent="true"
             android:gravity="center"
-            android:padding="10dp"
-            android:text="默认圆角"
-            app:borderColor="@color/Crimson_DC143C"
-            app:isRadiusAutoHalf="true"
-            app:textColorForPressed="@color/DarkMagenta_8B008B" />
+            android:padding="6dp"
+            android:text="purple"
+            android:textColor="@color/MediumOrchid_BA55D3"
+            app:borderColor="@color/MediumOrchid_BA55D3"
+            app:borderWidth="2dp"
+            app:radius="15dp"
+            app:textColorForPressed="@color/SlateGray_708090" />
     </RelativeLayout>
 
 
