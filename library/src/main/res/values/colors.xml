@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--颜色来自http://www.sioe.cn/yingyong/yanse-rgb-16/-->
+    <color name="LightPink_FFB6C1">#FFB6C1</color><!--浅粉红-->
+    <color name="Pink_FFC0CB">#FFC0CB</color><!--粉红-->
+    <color name="Crimson_DC143C">#DC143C</color><!--猩红-->
+    <color name="LavenderBlush_FFF0F5">#FFF0F5</color><!--脸红的淡紫色-->
+    <color name="PaleVioletRed_DB7093">#DB7093</color><!--苍白的紫罗兰红色-->
+
+    <color name="HotPink_FF69B4">#FF69B4</color><!--热情的粉红-->
+    <color name="DeepPink_FF1493">#FF1493</color><!--深粉色-->
+    <color name="MediumVioletRed_C71585">#C71585</color><!--适中的紫罗兰红色-->
+    <color name="Orchid_DA70D6">#DA70D6</color><!--兰花的紫色-->
+    <color name="Thistle_D8BFD8">#D8BFD8</color><!--蓟-->
+
+    <color name="plum_DDA0DD">#DDA0DD</color><!--李子-->
+    <color name="Violet_EE82EE">#EE82EE</color><!--紫罗兰-->
+    <color name="Magenta_FF00FF">#FF00FF</color><!--洋红-->
+    <color name="Fuchsia_FF00FF">#FF00FF</color><!--灯笼海棠(紫红色)-->
+    <color name="DarkMagenta_8B008B">#8B008B</color><!--深洋红色-->
+
+    <color name="Purple_800080">#800080</color><!--紫色-->
+    <color name="MediumOrchid_BA55D3">#BA55D3</color><!--适中的兰花紫-->
+    <color name="DarkVoilet_9400D3">#9400D3</color><!--深紫罗兰色-->
+    <color name="DarkOrchid_9932CC">#9932CC</color><!--深兰花紫-->
+    <color name="Indigo_4B0082">#4B0082</color><!--靛青-->
+
+    <color name="BlueViolet_8A2BE2">#8A2BE2</color><!--深紫罗兰的蓝色-->
+    <color name="MediumPurple_9370DB">#9370DB</color><!--适中的紫色-->
+    <color name="MediumSlateBlue_7B68EE">#7B68EE</color><!--适中的板岩暗蓝灰色-->
+    <color name="SlateBlue_6A5ACD">#6A5ACD</color><!--板岩暗蓝灰色-->
+    <color name="DarkSlateBlue_483D8B">#483D8B</color><!--深岩暗蓝灰色-->
+
+    <color name="Lavender_E6E6FA">#E6E6FA</color><!--熏衣草花的淡紫色-->
+    <color name="GhostWhite_F8F8FF">#F8F8FF</color><!--幽灵的白色-->
+    <color name="Blue_0000FF">#0000FF</color><!--纯蓝-->
+    <color name="MediumBlue_0000CD">#0000CD</color><!--适中的蓝色-->
+    <color name="MidnightBlue_191970">#191970</color><!--午夜的蓝色-->
+
+    <color name="DarkBlue_00008B">#00008B</color><!--深蓝色-->
+    <color name="Navy_000080">#000080</color><!--海军蓝-->
+    <color name="RoyalBlue_4169E1">#4169E1</color><!--皇家蓝-->
+    <color name="CornflowerBlue_6495ED">#6495ED</color><!--矢车菊的蓝色-->
+    <color name="LightSteelBlue_B0C4DE">#B0C4DE</color><!--淡钢蓝-->
+
+    <color name="LightSlateGray_778899">#778899</color><!--浅石板灰-->
+    <color name="SlateGray_708090">#708090</color><!--石板灰-->
+
+
+
+</resources>

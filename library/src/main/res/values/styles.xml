@@ -1,0 +1,24 @@
+<resources>
+
+    <attr name="LGMRoundButtonStyle" format="reference" />
+
+
+    <declare-styleable name="LGMRoundButton">
+        <attr name="bgColor" format="color" />
+        <attr name="borderColor" format="color" />
+
+        <attr name="textColorForPressed" format="color" />
+
+        <attr name="borderWidth" format="dimension" />
+
+        <attr name="isRadiusAutoHalf" format="boolean" />
+
+        <attr name="alphaForDrawable" format="dimension" /><!--当前绘制的drawable的透明度-->
+
+        <attr name="radius" format="dimension" />
+        <attr name="radiusForTopLeft" format="dimension" />
+        <attr name="radiusForTopRight" format="dimension" />
+        <attr name="radiusForBottomLeft" format="dimension" />
+        <attr name="radiusForBottomRight" format="dimension" />
+    </declare-styleable>
+</resources>

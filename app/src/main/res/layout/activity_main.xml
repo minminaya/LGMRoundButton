@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <com.minminaya.library.LGMRoundButton
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="默认表现为圆角"
+            app:borderColor="@color/Crimson_DC143C"
+            app:borderWidth="2dp"
+            app:isRadiusAutoHalf="true"
+            app:textColorForPressed="@color/DarkMagenta_8B008B" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <com.minminaya.library.LGMRoundButton
+            android:id="@+id/btn1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="左上"
+            app:borderColor="@color/Crimson_DC143C"
+            app:radiusForTopLeft="20dp"
+            app:textColorForPressed="@color/DarkMagenta_8B008B" />
+
+        <com.minminaya.library.LGMRoundButton
+            android:id="@+id/btn2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@id/btn1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="中上"
+            app:borderColor="@color/Crimson_DC143C"
+            app:textColorForPressed="@color/DarkMagenta_8B008B" />
+
+        <com.minminaya.library.LGMRoundButton
+            android:id="@+id/btn3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@id/btn2"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="右上"
+            app:radiusForBottomRight="0dp"
+            app:borderColor="@color/Crimson_DC143C"
+            app:radiusForTopRight="20dp"
+            app:textColorForPressed="@color/DarkMagenta_8B008B" />
+
+        <com.minminaya.library.LGMRoundButton
+            android:id="@+id/btn4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/btn1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="左下"
+            app:borderColor="@color/Crimson_DC143C"
+            app:radiusForBottomLeft="20dp"
+            app:textColorForPressed="@color/DarkMagenta_8B008B" />
+
+        <com.minminaya.library.LGMRoundButton
+            android:id="@+id/btn5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/btn1"
+            android:layout_toEndOf="@id/btn4"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="中下"
+            app:borderColor="@color/Crimson_DC143C"
+            app:textColorForPressed="@color/DarkMagenta_8B008B" />
+
+        <com.minminaya.library.LGMRoundButton
+            android:id="@+id/btn6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/btn1"
+            android:layout_toEndOf="@id/btn5"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="右下"
+            app:borderColor="@color/Crimson_DC143C"
+            app:radiusForBottomRight="20dp"
+            app:textColorForPressed="@color/DarkMagenta_8B008B" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <com.minminaya.library.LGMRoundButton
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="默认圆角"
+            app:borderColor="@color/Crimson_DC143C"
+            app:isRadiusAutoHalf="true"
+            app:textColorForPressed="@color/DarkMagenta_8B008B" />
+    </RelativeLayout>
+
+
+</LinearLayout>
