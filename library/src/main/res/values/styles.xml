@@ -13,7 +13,7 @@
 
         <attr name="isRadiusAutoHalf" format="boolean" />
 
-        <attr name="alphaForDrawable" format="dimension" /><!--当前绘制的drawable的透明度-->
+        <attr name="alphaForDrawable" format="integer" /><!--当前绘制的drawable的透明度-->
 
         <attr name="radius" format="dimension" />
         <attr name="radiusForTopLeft" format="dimension" />

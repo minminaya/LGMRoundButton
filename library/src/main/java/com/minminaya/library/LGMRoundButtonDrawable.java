@@ -54,7 +54,7 @@ public class LGMRoundButtonDrawable extends GradientDrawable {
         boolean attrForisRadiusAutoHalf = typedArray.getBoolean(R.styleable.LGMRoundButton_isRadiusAutoHalf, false);
 
         //默认不透明
-        int alpha = typedArray.getDimensionPixelSize(R.styleable.LGMRoundButton_alphaForDrawable, 255);
+        int alpha = typedArray.getInteger(R.styleable.LGMRoundButton_alphaForDrawable, 255);
 
 
         colorStateListForTextColorForPressed = typedArray.getColorStateList(R.styleable.LGMRoundButton_textColorForPressed);

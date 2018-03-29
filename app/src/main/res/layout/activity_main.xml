@@ -129,5 +129,44 @@
             app:textColorForPressed="@color/SlateGray_708090" />
     </RelativeLayout>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <com.minminaya.library.LGMRoundButton
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="70dp"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="alpha-50"
+            android:textColor="@color/LavenderBlush_FFF0F5"
+            app:alphaForDrawable="50"
+            app:bgColor="@color/HotPink_FF69B4"
+            app:borderColor="@android:color/black"
+            app:borderWidth="1dp"
+            app:radius="15dp"
+            app:textColorForPressed="@color/SlateGray_708090" />
+
+        <com.minminaya.library.LGMRoundButton
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="70dp"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="alpha-200"
+            android:textColor="@color/LavenderBlush_FFF0F5"
+            app:alphaForDrawable="200"
+            app:bgColor="@color/HotPink_FF69B4"
+            app:borderColor="@android:color/black"
+            app:borderWidth="1dp"
+            app:radius="15dp"
+            app:textColorForPressed="@color/SlateGray_708090" />
+    </RelativeLayout>
+
 
 </LinearLayout>
