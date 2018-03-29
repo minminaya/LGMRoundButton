@@ -16,18 +16,19 @@ API >= 21
 
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+    repositories {
+        ....
+   	maven { url 'https://jitpack.io' }
+    }
+}
 ```
 2. 在```app build.gradle```下
 
 ```
 dependencies {
-	        compile 'com.github.minminaya:LGMRoundButton:v1.2'
-	}
+    ....
+    implementation 'com.github.minminaya:LGMRoundButton:v1.2'
+}
 ```
 
 # 使用方法
