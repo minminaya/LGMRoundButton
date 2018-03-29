@@ -1,10 +1,14 @@
 # LGMRoundButton
 
-Android简易实现的圆形Button按钮
+Android简易实现的圆形Button按钮，减少drawable实现圆形按钮方式书写太多的selector和drawable文件
 
 # 效果图
 
-![](/img/img1.png)
+![](/img/img3.png)
+
+# 兼容性
+
+API >= 21
 
 # 集成方式
 
@@ -61,7 +65,7 @@ dependencies {
 
 # 其他实现方式
 
-Drawable定义为xml文件方式
+Drawable定义为xml文件方式也可以实现
 
 # License
 
